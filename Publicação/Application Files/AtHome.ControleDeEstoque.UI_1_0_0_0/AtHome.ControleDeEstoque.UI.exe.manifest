@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AtHome.ControleDeEstoque.UI.exe" version="1.0.0.0" publicKeyToken="994d033d519a5107" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AtHome.ControleDeEstoque.UI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AtHome.ControleDeEstoque.UI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.Types" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AtHome.ControleDeEstoque.Data.dll" size="37376">
+      <assemblyIdentity name="AtHome.ControleDeEstoque.Data" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YINjEq06HpZ4rB1gigvFJCR1prJg19K5sYWeQ9jsmfI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AtHome.ControleDeEstoque.Domain.dll" size="12800">
+      <assemblyIdentity name="AtHome.ControleDeEstoque.Domain" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>TxN4lj+04VkG/1QU1hJ1OVwndpcPgAU09HkAsBPLhDA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AtHome.ControleDeEstoque.UI.exe" size="148992">
+      <assemblyIdentity name="AtHome.ControleDeEstoque.UI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2Bw4iMgSJMgSD3IxqgKoeY/gThkdD1WJW4nz/w7Oj+U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AtHome.ControleDeEstoque.UI.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NoteAndre-PC\NoteAndre" issuerKeyHash="b4da8b2942ada67998f3b0ba20d2a10a474653b5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WWe5Eu/svbIYxpHEGOFyImRS+DAs0GXhbgMcVrdtR1E=</DigestValue></Reference></SignedInfo><SignatureValue>CWhhMUUWapJQauYaFyGcfxsnoNJ03QVwprZ/y2p4JaUrBCUnIXJ/KB3SL4sIdAHlTTdtywOdWtGc1b0HpoXqUnUp0WEe8GLHuHZ2XH7+RhWZvgG27Dm2xS9FiSM7TsmShMFxo6yd6MLl6DavwWKDpd4s7wiS3GKa9rKITCygzNU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3FzJXXgDdn6ef51jpYR1JFH91B8J0Vy5BrZQHXPTtkIMpAQYGvcVnczVnUJWiDsuxf1a8XbPuWZ9haiTvRatUI9dOWejooMeXMRcQImwv47ThzTQb9c22EajPjCrm3u3wZgkOnXDK+U/LKa3SF3CKj8yj9netJhJKpLzUOpgCq8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="51476db7561c036ee165d02c30f852642272e118c491c618b2bdecef12b96759" Description="" Url=""><as:assemblyIdentity name="AtHome.ControleDeEstoque.UI.exe" version="1.0.0.0" publicKeyToken="994d033d519a5107" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NoteAndre-PC\NoteAndre</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>03oLsDNpfuBq1SALCleI8mk87JEdEwhwmx4kuDbLeJI=</DigestValue></Reference></SignedInfo><SignatureValue>CDcUMjUKjdBUcw4FKc8pRu/Nu4gmQtudqa4ZLUYVxhlIBsI35ULcEIkEkuVZjJ7/xvnSvDcuCruA1XQxfPPYtKCX7XHqoJjhULwal7up+6C6zdks1Urz8RNiJg1SKdGYfU7XzqYOQZUOg3Gv1jvDpz+9J1oKvmfz3dx2uWTJGBI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3FzJXXgDdn6ef51jpYR1JFH91B8J0Vy5BrZQHXPTtkIMpAQYGvcVnczVnUJWiDsuxf1a8XbPuWZ9haiTvRatUI9dOWejooMeXMRcQImwv47ThzTQb9c22EajPjCrm3u3wZgkOnXDK+U/LKa3SF3CKj8yj9netJhJKpLzUOpgCq8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQYeAVlDVOUL9Fzyfpt8+kaDANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwATgBvAHQAZQBBAG4AZAByAGUALQBQAEMAXABOAG8AdABlAEEAbgBkAHIAZTAeFw0yMDAyMDQwMDAxMzRaFw0yMTAyMDMwNjAxMzRaMDcxNTAzBgNVBAMeLABOAG8AdABlAEEAbgBkAHIAZQAtAFAAQwBcAE4AbwB0AGUAQQBuAGQAcgBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcXMldeAN2fp5/nWOlhHUkUf3UHwnRXLkGtlAdc9O2QgykBBga9xWdzNWdQlaIOy7F/Vrxds+5Zn2FqJO9Fq1Qj105Z6Oigx5cxFxAibC/jtOHNNBv1zbYRqM+MKube7fBmCQ6dcMr5T8sprdIXcIqPzKP2d60mEkqkvNQ6mAKrwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGH8o1DrzEwyRK5gGHxhE6sUw1EcXKGZp0dDxQkhmggUtSDr4X1f+Z8NoXdsRLMkmx/6AUk72nyFsJoypm290jo88nYOsjBxmhlmRtYNSKjtHRx8jxVO+ZfBVLwII3d8JtbtX1iVmoyj51iJfJnmKANGnxH5Ui4BQ91bwYXaXAAY</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

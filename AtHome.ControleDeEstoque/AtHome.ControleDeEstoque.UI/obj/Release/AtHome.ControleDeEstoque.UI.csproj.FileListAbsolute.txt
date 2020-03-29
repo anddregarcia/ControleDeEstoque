@@ -1,0 +1,16 @@
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\bin\Release\AtHome.ControleDeEstoque.UI.exe.config
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\AtHome.ControleDeEstoque.UI.csprojResolveAssemblyReference.cache
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\AtHome.ControleDeEstoque.UI.AlterarEstoque.resources
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\AtHome.ControleDeEstoque.UI.CadastroDeGrupo.resources
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\AtHome.ControleDeEstoque.UI.CadastroDeItem.resources
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\AtHome.ControleDeEstoque.UI.CadastroConfiguracao.resources
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\AtHome.ControleDeEstoque.UI.ConsultarPedidos.resources
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\AtHome.ControleDeEstoque.UI.ExportarLista.resources
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\AtHome.ControleDeEstoque.UI.ListaDePedidos.resources
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\AtHome.ControleDeEstoque.UI.LoginSenha.resources
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\AtHome.ControleDeEstoque.UI.Principal.resources
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\AtHome.ControleDeEstoque.UI.Properties.Resources.resources
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\AtHome.ControleDeEstoque.UI.Relatórios.ListaDePedidosFormReport.resources
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\AtHome.ControleDeEstoque.UI.csproj.GenerateResource.Cache
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\RdlCompile.cache
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.UI\obj\Release\RdlCompile.compiled

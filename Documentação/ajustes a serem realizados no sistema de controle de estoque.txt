@@ -1,0 +1,16 @@
+ok 1. ao apagar ou adicionar grupos, na tela de cadastro de grupos, precisa atualizar o list de grupos na tela principal.
+ok 2. testar o filtro "acima de" e "abaixo de" para quando o usuário não quiser usar estas opções.
+ok 3. erro ao tentar gerar relatório sem selecionar nenhuma linha.
+ok 4. quando é excluído um item que já foi colocado em uma lista de pedido, o nome não aparece mais na lista
+ok 5. implementar funcionalidade de colocar/remover asteríscos na exportação da lista.
+ok 6. ao clonar uma lista, precisa ajustar a mensagem no cabeçalho da lista, trocando a palavra "finalizada" para "em andamento".
+ok 7. ao clicar em "reposição" não limpar o grid dos itens na lista de pedidos. 
+ok 8. ajustar o botão de finalizar lista quando a opção reposição estiver marcada.
+ok 9. erro na tela principal ao clicar em subtrair com o campo vazio.
+ok 10. incluir nome da empresa na tela principal do sistema.
+11. ajustar a rastreablidade para salvar o estoque anterior, o estoque atual e o valor utilizado para alterar o estoque.
+ok 12. adicionar a coluna de grupo na tabela da lista de pedidos
+ok 13. adicionar campo para gravar o logotipo na configuração do sistema.
+
+--
+Adicionar imagem ícone do sistema 

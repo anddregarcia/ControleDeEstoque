@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{039F2393-ADD3-4F40-AD5E-AE8CA5668591}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AtHome.ControleDeEstoque.UI</RootNamespace>
+    <AssemblyName>AtHome.ControleDeEstoque.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\Publicação\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F52DC07AABC8DED55A0862F472C4441B1EA68B67</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>AtHome.ControleDeEstoque.UI_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icone-sistema.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlterarEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlterarEstoque.Designer.cs">
+      <DependentUpon>AlterarEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroDeGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroDeGrupo.Designer.cs">
+      <DependentUpon>CadastroDeGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroDeItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroDeItem.Designer.cs">
+      <DependentUpon>CadastroDeItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroConfiguracao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroConfiguracao.Designer.cs">
+      <DependentUpon>CadastroConfiguracao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarPedidos.Designer.cs">
+      <DependentUpon>ConsultarPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportarLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportarLista.Designer.cs">
+      <DependentUpon>ExportarLista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaDePedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaDePedidos.Designer.cs">
+      <DependentUpon>ListaDePedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarLog.Designer.cs">
+      <DependentUpon>ConsultarLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginSenha.Designer.cs">
+      <DependentUpon>LoginSenha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relatorios\ListaDePedidosFormReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios\ListaDePedidosFormReport.Designer.cs">
+      <DependentUpon>ListaDePedidosFormReport.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AlterarEstoque.resx">
+      <DependentUpon>AlterarEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroDeGrupo.resx">
+      <DependentUpon>CadastroDeGrupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroDeItem.resx">
+      <DependentUpon>CadastroDeItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroConfiguracao.resx">
+      <DependentUpon>CadastroConfiguracao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarLog.resx">
+      <DependentUpon>ConsultarLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarPedidos.resx">
+      <DependentUpon>ConsultarPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportarLista.resx">
+      <DependentUpon>ExportarLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaDePedidos.resx">
+      <DependentUpon>ListaDePedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginSenha.resx">
+      <DependentUpon>LoginSenha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Relatorios\ListaDePedidosReport.rdlc" />
+    <EmbeddedResource Include="Relatorios\ListaDePedidosFormReport.resx">
+      <DependentUpon>ListaDePedidosFormReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AtHome.ControleDeEstoque.UI_TemporaryKey.pfx" />
+    <None Include="Properties\DataSources\AtHome.ControleDeEstoque.Domain.ItemDoPedido.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AtHome.ControleDeEstoque.Data\AtHome.ControleDeEstoque.Data.csproj">
+      <Project>{f4d60f97-96c3-4920-ba5a-5263b4e7c05f}</Project>
+      <Name>AtHome.ControleDeEstoque.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AtHome.ControleDeEstoque.Domain\AtHome.ControleDeEstoque.Domain.csproj">
+      <Project>{96cb35ec-89ac-450a-a4bc-f41a74b0ea21}</Project>
+      <Name>AtHome.ControleDeEstoque.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icone-sistema.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

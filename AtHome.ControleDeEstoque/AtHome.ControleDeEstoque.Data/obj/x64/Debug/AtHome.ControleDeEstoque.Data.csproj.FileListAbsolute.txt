@@ -1,0 +1,6 @@
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.Data\bin\x64\Debug\AtHome.ControleDeEstoque.Data.dll
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.Data\bin\x64\Debug\AtHome.ControleDeEstoque.Data.pdb
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.Data\bin\x64\Debug\AtHome.ControleDeEstoque.Domain.dll
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.Data\bin\x64\Debug\AtHome.ControleDeEstoque.Domain.pdb
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.Data\obj\x64\Debug\AtHome.ControleDeEstoque.Data.dll
+C:\Users\NoteAndre\Documents\André\C#\Controle de Estoque\AtHome.ControleDeEstoque\AtHome.ControleDeEstoque.Data\obj\x64\Debug\AtHome.ControleDeEstoque.Data.pdb
